@@ -48,16 +48,6 @@ function repeater(str, options) {
   return string
 }
 
-console.log(
-  repeater(true, {
-    repeatTimes: 3,
-    separator: '??? ',
-    addition: false,
-    additionRepeatTimes: 2,
-    additionSeparator: '!!!',
-  })
-)
-;('truefalse!!!false??? truefalse!!!false??? truefalse!!!false')
 module.exports = {
   repeater,
 }
